@@ -1,0 +1,46 @@
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: "#00b9be",
+          50: "#eefffd",
+          100: "#c6fffc",
+          200: "#8efffa",
+          300: "#4dfbf8",
+          400: "#19e6e8",
+          500: "#00b9be",
+          600: "#009ca4",
+          700: "#027b83",
+          800: "#086067",
+          900: "#0c5055",
+          950: "#002e34",
+        },
+        danger: "#EB5757",
+        warning: "#F9C132",
+        success: "#12B76A",
+        info: "#026AA2",
+        dark: "#343a40",
+        gray: "#404A57",
+        title: "#404A57",
+        "sub-title": "#8693A5",
+        bg: "#ECECEC",
+      },
+      fontFamily: {
+        "montserrat-light": ["Montserrat_300Light", "sans-serif"],
+        "montserrat-regular": ["Montserrat_400Regular", "sans-serif"],
+        "montserrat-medium": ["Montserrat_500Medium", "sans-serif"],
+        "montserrat-semibold": ["Montserrat_600SemiBold", "sans-serif"],
+        "montserrat-bold": ["Montserrat_700Bold", "sans-serif"],
+        "montserrat-extrabold": ["Montserrat_800ExtraBold", "sans-serif"],
+        "montserrat-black": ["Montserrat_900Black", "sans-serif"],
+      },
+    },
+    screens: {
+      DEFAULT: "320px",
+      md: "390px",
+      lg: "480px",
+      xl: "600px",
+    },
+  },
+};
